@@ -1,0 +1,168 @@
+body{
+  margin:0px 0 0 200px;
+  width:860px;
+}
+
+
+a {
+  color: #09c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #069;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #069;
+}
+
+#header{
+  background: url("/images/line2.png") repeat-x scroll 0 -352px transparent;
+  width:860px;
+  padding:5px 5px 5px 0px;
+  position:fixed;
+  z-index: 99;
+}
+
+#main_top_margin{
+  height:40px;
+  width:100%;
+}
+
+
+#register_login a,#quick_menu a {
+     margin: 0 5px 0 0;
+     text-decoration: none;   
+   }
+
+#quick_menu{
+  float:right;
+}
+
+#main{
+ /*margin-top:50px;*/
+}
+
+#logo-nav{
+  height:75px;
+  width:860px;
+  background:url("/images/logo_nav.gif") no-repeat scroll 0 0 transparent;
+}
+
+#logo-nav img{
+   width:160px;
+   height:60px;
+}
+
+.round {
+  border:0px;
+  -moz-border-radius:    10px;
+  -webkit-border-radius: 10px;
+  border-radius:         10px; 
+}
+
+img {
+  margin:1px;
+  padding: 5px;
+  background:#cff; 
+}
+
+
+
+#nav_bar {
+    background: url("/images/line2.png") repeat-x scroll 0 -162px transparent;
+    height: 35px;
+}
+
+#nav_item_list {
+    margin-left: 30px;
+}
+
+.col {
+    display: inline;
+    float: left;
+    margin: 0 5px;
+    overflow: hidden;
+}
+
+.g14 {
+    width: 860px;
+}
+
+.nav_item {
+    float: left;
+    margin-top: 3px;
+    overflow: visible;
+}
+
+li {
+    list-style: none outside none;
+}
+
+
+.nav_item.active span.title {
+    background: none repeat scroll 0 0 white;
+    border-bottom: 5px solid white;
+    color: #0099CC;
+    padding: 2px 12px 0;
+}
+
+.nav_item a span.title {
+    padding-top: 1px;
+}
+
+.nav_item a span {
+    cursor: pointer;
+}
+
+.nav_item span {
+    display: block;
+}
+
+.nav_item a {
+    color: white;
+    display: block;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    height: 22px;
+    line-height: 20px;
+    padding: 0 15px;
+    text-decoration: none;
+}
+
+a, .link, .azure, .hover_link:hover {
+    color: #0099CC;
+}
+
+a, .link, .no_under_line {
+    text-decoration: none;
+}
+
+a, div, h1, h2, h3 {
+    text-align: left;
+}
+
+.nav_item .split_half_left {
+    border-color: #329CC3;
+}
+
+.nav_item .split_half_right, .nav_item .split_half_left {
+    border-right: 1px solid #73C5E4;
+    float: left;
+    height: 19px;
+    margin-top: 3px;
+    width: 1px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
